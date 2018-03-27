@@ -886,9 +886,9 @@ class LUS( inkex.Effect ):
 #-----------------------------------------------------------------------------------------------------
 	def connect( self ):
 		try:
-			#self._sock.connect(('line-us.local',1337))	# Common
+			self._sock.connect(('line-us.local',1337))	# Common
 			#self._sock.connect(('192.168.43.156', 1337))	# Yulya 
-			self._sock.connect(('10.10.100.254', 1337))	# longtolik
+			#self._sock.connect(('10.10.100.254', 1337))	# longtolik
 			self.connected=True
 		except:
 			inkex.errormsg( gettext.gettext( 'Not connected' ) )
