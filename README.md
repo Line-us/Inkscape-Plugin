@@ -8,3 +8,5 @@ The plugin uses machine co-ordinates and does not do any scaling, so refer to th
 for details. Note that the Inkscape document units must be set to pixels 
 (File/Document Properties/Cusomt Size/Units). For reference a sample drawing is 
 [included here.](LineUsTestDrawing.svg)
+
+The plugin appears in the extensions list as LUS
